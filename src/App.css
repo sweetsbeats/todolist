@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+}
+#todo {  
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+p {
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border: 1px solid black;
+  display: grid;
+  margin-top: 3px;
+}
+.task {
+  float: left;
+}
+.actionName {
+  float: left;
+}
+.x {
+  float:right;
+  -moz-user-select: none;
+}
+div.x:hover {
+  transform: scale(1.2);
+  color: maroon;
+  text-shadow: 1px 1px 0px black;
+
+}
+.App-header {
+  background-color: #386ace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #09d3ac;
+}
